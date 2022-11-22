@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(24,25,26,255);
+    display: flex;  
+}
+
+.inputlist {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 50%;
+    height: 200px;
+    background-color:rgba(36,37,38,255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.inputlist h1{
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputlist input {
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 30px;
+    width: 70%;
+    margin-top: 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+.inputlist button {
+
+width: 100px;
+margin: 0 auto;
+margin-top: 20px;
+border: none;
+border-radius: 30px;
+background-color: rgba(35,116,225,255);
+height: 30px;
+color: white;
+}
+
+.inputlist button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
